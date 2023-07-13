@@ -7,13 +7,13 @@ using namespace std;
 int main() {
    srand((unsigned int)time(NULL));
 
-   int num = (rand() % 100) +1;
+   int num = (rand() % 10) +1;
 
    int guess = 0;
 
    do 
    {
-    cout << "Lets's see if you can guess the number or not!!\n ";
+    cout << "Lets's see if you can guess the number between 1-10 or not!!\n ";
     cin>> guess;
 
     if(guess > num ){
