@@ -13,7 +13,7 @@ int main() {
     string name;
     double grade;
 
-    // Input student names and grades
+    // Input the student data from the user
     while (true) {
         cout << "Enter student name (or 'display' to finish): ";
         getline(cin, name);
